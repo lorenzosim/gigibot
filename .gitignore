@@ -5,3 +5,5 @@ Packages/
 Package.pins
 Package.resolved
 *.xcodeproj
+.swiftpm
+.DS_Store

@@ -3,9 +3,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "gigi",
+    name: "gigibot",
     dependencies: [],
     targets: [
+        .target(
+          name: "gigibot",
+          dependencies: ["gigi"]),
         .target(
             name: "gigi",
             dependencies: []),
