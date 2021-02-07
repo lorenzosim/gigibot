@@ -1,11 +1,13 @@
 # Gigibot
 
-A very simple UCI chess engine written in Swift. The engine is not particularly strong, but can be challenging for
-beginners (beats Stockfish at skill level 1).
+A simple UCI chess engine written in Swift. I created it as a hobby project and to try out Swift for the first time.
+The engine is not particularly strong, it wins about half the games against Stockfish set to skill level 2 (tested in 2+1 blitz).
 
 ## Compiling
 
-Install [Swift](https://swift.org/) and run `swift build --configuration release`.
+Tested on Mac an Linux, but should compile on Windows as well.
+*  Install [Swift](https://swift.org/)
+* run `swift build --configuration release`.
 
 ## Running
 
